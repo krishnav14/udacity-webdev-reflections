@@ -12,3 +12,9 @@
 * What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 	Branches are named commits. If we work on an experimental feature, or something new that need would be requiring approval on completion, it is better to have a branch. In that case we would not have to deal with messy commit histories when we need to fix stuff in a main branch. This would enable parralel development too when multiple people have to work on the same project
+
+* How do the diagrams help you visualize the branch structure?
+
+	Diagrams help us view the entire flow of the checkpoints done in the project. We can see at what point did the project branch and if the messages are useful, why did the projects branch. 
+
+
