@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing a diff between two version sof a file helps sees the bug since it shows exactly what was introduced and what was removed. Having these at hand, we can easily tell the mistakes using our good judgement. We know exactly where to look which for bigger files is amazing since if we keep checking in, we would potentially have to look at a handful of lines for debugging.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having entire history of a file can make one an efficient program since we would know exactly what all features were actually added. This would enable us to use features written by programmers who have probably committed way before we even startedd working. This enables better work, since you would not have to reinvent the wheel and build things that actually matter
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually choosing when to commit is that we can control the amount of version information stored i.e. we can store only the working copies. We needn't store what didnt work or what was intermediete. We can also have smaller histories for versioning i.e. stuff that matter. It is possible with automatic version control we might have continously expanding histories. Also we know exactly what was committed so we can specify descriptions, thus looking at the commit log we can tell how the program developed. However this relies on humans committing and although there are many amazing tools that force commits in production environments, human error always creep in. Automatic versioning ensures that no matter what we can recover. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google Docs is a document editor and thus the semantics of the application involves maintaining versions of one document at a time. Relationships between documents is either non-existent or irrelevant. Git is a general purpose version control software. In a single commit, it is possible multiple files changed which happens many times in coding. This involves versioning all related files in the same umbrella so the people looking at the log know what exactly happened. If there were multiple commits(1 per file), it would be practically impossible to draw these relations manually since we would have a partial order - we could never tell whetehr the files were modified at the same time or at diffrent times
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the entire commit history i.e. all the checkpoints since the first commit. However it doesnt show all changes. If we want to know how far weve come since a particular commit, or how much change has happened between any two arbitarary commits we use git diff.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    When you use version control it is very easy to roll back to an unbroken version. In that case it gives an extra boost or fail safe that if the build breaks, we can always go back. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    We want to use git to track changes. Our work place is setup but we still need to track changes of the project as it progresses and we need to make sure we have working versions which we canroll back to such that too much changes are not lost. It would be pointless if we had to roll back to project start. Its a lot of wasted man hours  
