@@ -19,3 +19,7 @@
 
 * What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	Result of merging two branches together is that they form a new commit which includes both changes in the same commit. It effectively takes all the changes introduced in both branches and makes a new revision containing all the changes
+
+* What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros of Gits automatic merging - We dont have to merge large changes if theyre completely independent of each other. Cons are that if the changes are indpendent and on the same line it results in a conflict. Not only thatit is possible to optimise the code space if there were redundant code by shrinking down. However it is most of the time wasted effort 
