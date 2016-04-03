@@ -17,4 +17,5 @@
 
 	Diagrams help us view the entire flow of the checkpoints done in the project. We can see at what point did the project branch and if the messages are useful, why did the projects branch. 
 
-
+* What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Result of merging two branches together is that they form a new commit which includes both changes in the same commit. It effectively takes all the changes introduced in both branches and makes a new revision containing all the changes
