@@ -5,4 +5,9 @@
    - If someone else changed the repository and pushed something, your repository would try to pull the changes automatically which could potentially lead to an inconsistent state. This isnt good while programming as merge conflicts could potentially arise without your knowledge, hence we prefer manual pull
 
 * Describe the differences between forks, clones, and branches. When would you use one instead of another?
-  - Fork is making a clone of a repository of somebody else to modify and add features in GitHub. Clones is making the exact copy of the repository in another place. Branches are when you want to split from the current commit and move into developing an experimental feature. 
+  - Fork is making a clone of a repository of somebody else to modify and add features in GitHub. Clones is making the exact copy of the repository in another place. Branches are when you want to split from the current commit and move into developing an experimental feature.
+
+* How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  - It is possible to use other version control like Mercurial and other hosting sites like bitbucket but since I havent used those as much, I dont know what are the pros and cons of each. However collaboration without version control would be monstrous. It would require work in maintaining consistent copies and making sure the code is functional at every step, something which Git takes care of. Using Git although adds an extra overhead is easier. 
+
+ 
