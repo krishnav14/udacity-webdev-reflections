@@ -10,4 +10,5 @@
 * How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
   - It is possible to use other version control like Mercurial and other hosting sites like bitbucket but since I havent used those as much, I dont know what are the pros and cons of each. However collaboration without version control would be monstrous. It would require work in maintaining consistent copies and making sure the code is functional at every step, something which Git takes care of. Using Git although adds an extra overhead is easier. 
 
- 
+* When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  -  You would want to make changes in a seperate branch rather than in master when youre working on a new feature that would probably take  a long time to develop and you would need to change the main version while youre concurrently developing features. However it is tedious. But even though its tedious it provides a framework to save a lot of work later. It kind of embodies the saying, "Do little work today so you can sleep well tomorrow" 
